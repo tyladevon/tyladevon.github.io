@@ -1,5 +1,5 @@
 /*
-    Theme Name  : 
+    Theme Name  :
     Version     : 1.0.0
     Author      : Themefisher
     Author URI  : http://themefisher.com/
@@ -7,7 +7,7 @@
 */
 
 /* =================================== */
-/*	Basic Style 
+/*	Basic Style
 /* =================================== */
 
 @import url(https://fonts.googleapis.com/css?family=Volkhov:400italic);
@@ -266,7 +266,7 @@ button.btn.btn-theme-color:hover{
     background-size: cover;
     position: relative;
     width: 100%;
-    background-image: url('../img/banner.jpg');
+    background-image: url('../img/tylariver.png');
     background-size: cover;
 }
 
@@ -573,7 +573,7 @@ button.btn.btn-theme-color:hover{
 }
 
 .portfolio-description {
-    
+
 }
 
 .portfolio-description h4 {
@@ -588,7 +588,7 @@ button.btn.btn-theme-color:hover{
 }
 
 .work-item:hover .portfolio-description {
-   
+
 }
 #mygallery div img {
     transform: scale(1);
@@ -599,7 +599,7 @@ button.btn.btn-theme-color:hover{
     -webkit-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
     -o-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
 }
-   
+
 .item-caption {
     position: absolute;
     color: #fff;
@@ -797,7 +797,7 @@ button.btn.btn-theme-color:hover{
 .contact-address ul li.phone {
     margin: 25px 0 10px;
     color: #ff2b4a;
-} 
+}
 
 .contact .exp-block h3 {
     margin-bottom: 35px;
@@ -852,19 +852,19 @@ button.btn.btn-theme-color:hover{
 
 .form-control:-moz-placeholder,
 :-moz-placeholder { /* Firefox 18- */
-    color: inherit;  
+    color: inherit;
     opacity: 1;
 }
 
 .form-control::-moz-placeholder,
 ::-moz-placeholder {  /* Firefox 19+ */
-    color: inherit;  
+    color: inherit;
     opacity: 1;
 }
 
 .form-control:-ms-input-placeholder,
-:-ms-input-placeholder {  
-    color: inherit;  
+:-ms-input-placeholder {
+    color: inherit;
     opacity: 1;
 }
 
@@ -879,7 +879,7 @@ button.btn.btn-theme-color:hover{
 }
 .social-icons {
     padding:50px;
-    
+
 }
 .social-icons a {
     color: #555;
