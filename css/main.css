@@ -365,7 +365,7 @@ button.btn.btn-theme-color:hover{
     margin: 20px 0px;
     width: 150px;
     height: 2px;
-    background-color: #FF2B4A;
+    background-color: #fff;
 }
 
 .about-intro .buttons {
@@ -531,8 +531,6 @@ button.btn.btn-theme-color:hover{
     font-size: 14px;
     line-height: 20px;
 }
-
-
 
 /*=====================================================
     Works
