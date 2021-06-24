@@ -22,32 +22,39 @@ $(function(){
     	}
     });
 
+    $("#banner-slider").owlCarousel({
+        autoPlay: false,
+        singleItem : true,
+        dots: false,
+        nav: false,
+    });
+
+    $("#case-study-slider").owlCarousel({
+        singleItem : true,
+        slideSpeed: 1500,
+        navigation:true,
+        navigationText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
+    });
 
     $(".testimonial-slider").owlCarousel({
+        autoPlay: true,
         singleItem : true,
-        autoPlay:true,
+        dots: false,
+        nav: false
     });
 
 
-    // menu toggle 
-    $(".toggle-btn").on("click", function() {
-    	$(this).toggleClass("active");
-    	$(".site-header").toggleClass("active");
-    });
-
-    $('#mygallery').justifiedGallery({
-        rowHeight : 240,
-        lastRow : 'nojustify',
-        margins : 6,
-        captions: false,
-        sizeRangeSuffixes: {
-            100 : '_t', // used with images which are less than 100px on the longest side
-            240 : '_m', // used with images which are between 100px and 240px on the longest side
-            320 : '_n', // ...
-            500 : '',
-            640 : '_z',
-            1024 : '_b' // used which images that are more than 640px on the longest side
-        }
+    $('.inline-popup').magnificPopup({
+        type: 'inline',
+        gutter:'20',
+        midClick: true,
+        removalDelay: 500, //delay removal by X to allow out-animation
+        callbacks: {
+            beforeOpen: function() {
+                this.st.mainClass = this.st.el.attr('data-effect');
+            }
+        },
+        midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
     });
     
 });
@@ -58,14 +65,5 @@ $(window).load(function() {
 
     $("#preloader").fadeOut("slow");
 });
-
-
-                    
-
-
-
-
-
-
 
 
