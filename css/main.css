@@ -263,11 +263,10 @@ button.btn.btn-theme-color:hover{
 .home-banner {
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
     width: 100%;
     background-image: url('./img/author2.jpg');
-    background-size: cover;
+    background-size: 150px;
 }
 
 .gradient {
