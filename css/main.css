@@ -265,7 +265,7 @@ button.btn.btn-theme-color:hover{
     background-repeat: no-repeat;
     position: relative;
     width: 100%;
-    background-image: url('./img/author2.jpg');
+    background-image: url('/img/author2.jpg');
     background-size: 600px;
 }
   
