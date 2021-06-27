@@ -341,10 +341,13 @@ button.btn.btn-theme-color:hover{
     background: #F7F7F7;
     padding-top: 100px;
 }
+.author-thumb {
+  background-image: url('/img/Tyla6.jpg');
+  background-size: 600px;
+}
 .about-intro {
     margin-top: 45px;
 }
-
 .about-intro h3 {
     font-size: 25px;
     font-weight: 400;
