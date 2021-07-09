@@ -1,15 +1,3 @@
-/*
-    Theme Name  : 
-    Version     : 1.0.0
-    Author      : Themefisher
-    Author URI  : http://themefisher.com/
-    License URI : http://themefisher.com/license
-*/
-
-/* =================================== */
-/*	Basic Style 
-/* =================================== */
-
 @import url(https://fonts.googleapis.com/css?family=Volkhov:400italic);
 
 body {
@@ -343,10 +331,10 @@ button.btn.btn-theme-color:hover{
 }
 .author-thumb {
   background-image: url('/img/Tyla6.jpg');
-  background-size: 600px;
+  background-size: 300px;
 }
 .about-intro {
-    margin-top: 45px;
+    margin-top: 150px;
 }
 .about-intro h3 {
     font-size: 25px;
